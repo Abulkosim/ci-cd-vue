@@ -4,9 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit",
-    "build": "vue-cli-service build"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "pinia": "^3.0.1",
